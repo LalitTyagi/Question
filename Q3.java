@@ -7,8 +7,7 @@ Output 12
 
 import java.util.*;
 
-public class Main
-{
+public class Q3{
     public static int multiply(int a,int b){
        if(a==0 || b==0) return 0;
     
