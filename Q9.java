@@ -8,8 +8,7 @@ For example if n=13, the output should be 17 if n = 101, the output should be 19
 
 import java.util.*;
 
-public class Main
-{
+public class Q9{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
