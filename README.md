@@ -54,3 +54,13 @@ Input
 Array = {1 3 4 8 10 } N = 7
 OUTPUT: TRUE
 ```
+
+Q6.Given an array of positive integers. The output should be the number of occurrences of each number.
+```
+Input: {2 3 2 6 1 6 2}
+Output:
+1 – 1
+2 – 3
+3 – 1
+6 – 2
+```
