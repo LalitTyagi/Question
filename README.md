@@ -19,6 +19,7 @@ Q2.Alternate sorting: Given an array of integers, rearrange the array in such a 
 ```
 
 Q3.Write function to find multipication of 2 numbers using + operator You must use minimu possible iterations.
-
+```
 Input: 3 , 4
 Output 12
+```
