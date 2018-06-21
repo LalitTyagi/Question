@@ -89,3 +89,15 @@ You should solve this question in O(n) time.
 Q9. You’re given a number n. 
 If write all the numbers from 1 to n in a paper, we have to find the number of characters written on the paper.
 For example if n=13, the output should be 17 if n = 101, the output should be 195
+
+Q10.Write a program to print the below pattern
+```
+Input: n = 6
+Output:
+1	7	12	16	19	21
+2	8	13	17	20
+3	9	14	18	
+4	10	15
+5	11	
+6 
+```
