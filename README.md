@@ -70,7 +70,7 @@ Q7.Given an odd length word which should be printed from the middle of the word.
 Example:
 Input: PROGRAM
 The output should be in the following pattern:
-	            G
+	      G
             GR
           GRA
        GRAM
