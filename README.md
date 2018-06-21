@@ -48,11 +48,9 @@ Q4. Given a 9×9 sudoku we have to evaluate it for its correctness. We have to c
 7 4 5 2 8 6 3 1 9
 ```
 
-/*
-2.Given sorted array check if two numbers sum in it is a given value
+Q5.Given sorted array check if two numbers sum in it is a given value
 ```
 Input
 Array = {1 3 4 8 10 } N = 7
 OUTPUT: TRUE
 ```
-*/
