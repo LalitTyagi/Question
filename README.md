@@ -24,7 +24,7 @@ Input: 3 , 4
 Output 12
 ```
 
-Q4. //Given a 9×9 sudoku we have to evaluate it for its correctness. We have to check both the sub matrix correctness and the whole sudoku correctness.
+Q4. Given a 9×9 sudoku we have to evaluate it for its correctness. We have to check both the sub matrix correctness and the whole sudoku correctness.
 ```
 5 3 4 6 7 8 9 1 2
 6 7 2 1 9 5 3 4 8
