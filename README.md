@@ -109,3 +109,21 @@ Q11. Given a set of numbers like <10, 36, 54,89,12> we want to find sum of weigh
 And sort the numbers based on the weight and print it as follows
 <10,its_weight>,<36,its weight><89,its weight>
 Should display the numbers based on increasing order.
+
+Q12.
+```
+Input:
+Number of elements in set1: 4
+Elements are: 9, 9, 9, 9
+Number of elements in set 2: 3
+Elements are: 1,1,1
+Output:
+1, 0, 1, 1, 0
+
+Input:
+Number of elements in set1: 11
+Elements are: 7,2,3,4,5,3,1,2,7,2,8
+Number of elements in set 2: 3
+Elements are: 1,2,3
+Output: 7,2,3,4,5,3,1,2,8,5,1
+```
