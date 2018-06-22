@@ -127,3 +127,16 @@ Number of elements in set 2: 3
 Elements are: 1,2,3
 Output: 7,2,3,4,5,3,1,2,8,5,1
 ```
+
+Q13.Spiral printing.
+```
+Input : 4
+Output:
+4444444
+4333334
+4322234
+4321234
+4322234
+4333334
+4444444
+```
