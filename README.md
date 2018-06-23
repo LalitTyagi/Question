@@ -181,3 +181,5 @@ Eg 1: Input:
 2 3 4 5 6 7 8 9 11 15
 2 3 4 5 6 7 8 9 10 11 13 15
 ```
+
+Q18.Rotate nXn Matrix 90 degree,180 degree, 270 degree, 360 degree.
