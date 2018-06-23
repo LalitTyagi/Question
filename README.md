@@ -148,6 +148,20 @@ arr2 ={ a b d e e g g i i},
 O/P-       cd, de, fg, hi
 ```
 
+Q15.Given an array and a threshold value find the o/p
+```
+eg) i/p {5 8 10 13 6 2};threshold = 3;
+      o/p  count = 17
+      explanation:
+Number	parts	            counts
+5	    {3,2}                2
+8       {3,3,2}              3
+10      {3,3,3,1}            4
+13      {3,3,3,3,1}          5
+6       {3,3}                2
+2       {2}                  1 
+```
+
 Q16.Given two numbers a and b both < 200 we have to find the square numbers which lie between a and b(inclusive)
 ```
 eg) i/p a = 20;b = 100;
