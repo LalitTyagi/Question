@@ -183,3 +183,5 @@ Eg 1: Input:
 ```
 
 Q18.Rotate nXn Matrix 90 degree,180 degree, 270 degree, 360 degree.
+
+Q19.Find if the matrix is available after the rotation.
