@@ -258,16 +258,15 @@ Q1. Given a string, replace all duplicates witht the next character.
 java114 --> javb124
 BusRoute112 --> BusRovte123
 aBuzZ9900 --> aBuzC9012
-```
-Rules
-Replace uppercase characters with next uppercase character, replace lowercase with lowercase
-Replace z --> a, Z --> A, 9 --> 0
-If the next character already exists, replace the next character
-aBuzZ9900 -- replace Z with A
-As 'a' exists, replace with next character -- B
-As 'B' exists, replace with next character -- C
-aBuzC9900 --- replace 9 with 0
-aBuzC9000 --- replace 0 with 1
+Rules:  
+Replace uppercase characters with next uppercase character, replace lowercase with lowercase  
+Replace z --> a, Z --> A, 9 --> 0  
+If the next character already exists, replace the next character  
+aBuzZ9900 -- replace Z with A  
+As 'a' exists, replace with next character -- B  
+As 'B' exists, replace with next character -- C  
+aBuzC9900 --- replace 9 with 0  
+aBuzC9000 --- replace 0 with 1  
 aBuzC9010 --- replace 0 with 2, as 1 already exists.
 O/P --> aBuzC9012
-Time given to complete this shit - 45 
+```
