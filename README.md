@@ -376,7 +376,7 @@ Input : no of rows, no of columns
 ```
 The final task was very confusing and it had to handle all the cases. There are chances for a ray to end at the starting position if the number of rows and columns are more than 5.
 
-Q3.1) Design a Call taxi booking application
+Q3. Design a Call taxi booking application
 -There are n number of taxi’s. For simplicity, assume 4. But it should work for any number of taxi’s.   
 -The are 6 points(A,B,C,D,E,F)   
 -All the points are in a straight line, and each point is 15kms away from the adjacent points.    
@@ -391,7 +391,7 @@ Q3.1) Design a Call taxi booking application
 -If no taxi is free at that time, booking is rejected     
      
 Design modules for     
-    
+```   
 1)    Call taxi booking 
 Input 1:
 Customer ID: 1
@@ -402,7 +402,8 @@ Pickup Time: 9
 Output 1:
 Taxi can be allotted.
 Taxi-1 is allotted
-
+```
+```
 Input 2:
 Customer ID: 2
 Pickup Point: B
@@ -412,10 +413,9 @@ Pickup Time: 9
 Output 1:
 Taxi can be allotted.
 Taxi-2 is allotted 
-
+```
 (Note: Since Taxi-1 would have completed its journey when second booking is done, so Taxi-2 from nearest point A which is free is allocated)
-
-
+```
 Input 3:
 Customer ID: 3
 Pickup Point: B
@@ -425,22 +425,22 @@ Pickup Time: 12
 Output 1:
 Taxi can be allotted.
 Taxi-1 is allotted 
-
+```
 2) Display the Taxi details
-
-
+```
 Taxi No:    Total Earnings:
 BookingID    CustomerID    From    To    PickupTime    DropTime    Amount
-   
+```  
 Output:
+```
 Taxi-1    Total Earnings: Rs. 400
-
 1    1    A    B     9    10    200
 3    3    B    C    12    13    200
-
+```
+```
 Taxi-2 Total Earnings: Rs. 350
 2    2    B    D    9    11    350 
-
+```
 These were just sample inputs. It should work for any input that they give.
 Those who finished both the modules within 3 hours and if it worked for all the inputs they give, those candidates were given extra modules to work with.
 
