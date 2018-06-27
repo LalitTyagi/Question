@@ -222,3 +222,27 @@ Q23. Check whether a given mathematical expression is valid.
          Output : Invalid 
 	 
 Q24. Given bigger NxN matrix and a smaller MxM matrix print TRUE if the smaller matrix can be found in the bigger matrix else print FALSE
+
+Q25. Given an array, print all duplicate values. If no duplicates found print -1.
+Input:12,13,14,12,125,24,24,12
+Output:12,24  
+Input:7,9,1,21 
+Output:-1  
+Input:32,6,12,45,12 
+Output:12 
+
+
+Q26. Given a linkedlist, reverse and print the list. The program should run with O(n) time and space complexity
+Input:10 -> 20 -> 30 -> 40 -> NULL  
+Output:40 -> 30 -> 20 -> 10 -> NULL  
+
+Q27: Given a string, reverse only the characters in it, any numbers present should hold the same position
+
+Input:zohocorp123 
+Output:procohoz123
+Input:zoho123corp 
+Output:proc123ohoz 
+Input:zoh123ocorp 
+Output:pro123cohoz
+Input:a1b2cd3 
+Output:d1c2ba3  
