@@ -224,6 +224,38 @@ Q23. Check whether a given mathematical expression is valid.
 ```
 
 Q24. Given bigger NxN matrix and a smaller MxM matrix print TRUE if the smaller matrix can be found in the bigger matrix else print FALSE
+```
+Input:
+3
+4 5 9
+1 3 5
+8 2 4
+2
+3 5
+2 4
+Output : True
+
+Input:
+3
+4 5 9
+1 3 5
+8 2 4
+2
+4 5
+1 4
+Output : False
+
+Input:
+11 12 13 14
+21 22 23 24
+31 32 33 34 
+41 42 43 44
+3
+21 22 23
+31 32 33
+41 42 43
+Output : True
+```
 
 Q25. Given an array, print all duplicate values. If no duplicates found print -1.
 ```
