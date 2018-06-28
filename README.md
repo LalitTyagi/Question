@@ -188,7 +188,7 @@ Q19.Find if the matrix is available after the rotation.
 
 -----------------------------------------------
 
-Q20. 3. Save the string “WELCOMETOZOHOCORPORATION” in a two dimensional array and search for substring like “too” in the two dimensional string both from left to right and from top to bottom.
+Q20. Save the string “WELCOMETOZOHOCORPORATION” in a two dimensional array and search for substring like “too” in the two dimensional string both from left to right and from top to bottom.
 ```
 w	e	L	C	O
 M	E	T	O	Z
@@ -254,11 +254,13 @@ Output:d1c2ba3
 ```
 
 Q28. Write a program to give the following output for the given input
+```
 Eg 1: Input: a1b10
        Output: abbbbbbbbbb
 Eg: 2: Input: b3c6d15
           Output: bbbccccccddddddddddddddd
 The number varies from 1 to 99.
+```
 
 Q29. For any given matrix find the path from the start to the end which gives the maximum sum. Traverse only right or down.
 Example: starting index is 15 (left top) and ending index is 10 (bottom right)
@@ -267,6 +269,152 @@ Example: starting index is 15 (left top) and ending index is 10 (bottom right)
 45 25 60
 70 75 10
 O/P:15->45->70->75->10 sum is 215
+```
+
+Q30. You’re given an even number n. If n=4, you have to print the following pattern :
+```
+4444
+4334
+4334
+4444
+If n=6, then the pattern should be like this :
+666666
+655556
+654456
+654456
+655556
+666666
+```
+
+Q31.Help john to find new friends in social network
+```
+Input:3
+mani 3 ram raj guna
+ram 3 kumar Kishore guna
+mughil 3 praveen Naveen Ramesh
+Output:
+Raj guna kumar Kishore praveen Naveen Ramesh
+```
+
+Q32.Find the union intersection of two list and also find except (remove even elements from list1 and odd elements from list2)
+```
+Input :7 
+1 3 4 5 6 8 9
+5
+1 5 8 9 2
+List 1: 		1,3,4,5,6,8,9
+List 2: 		1,5,8,9,2
+
+Union: 			1,3,4,5,6,8,9,2
+Intersection: 	        1,5,8,9
+Except: 		1,3,5,9,8,2 
+```
+
+Q33. Given unsorted array find all combination of the element for a given sum. Order should be maintained.
+```
+Input : 8 3 4 7 9 N=7
+Output : {3 4 } {7}
+```
+
+Q34. Given an array, find the minimum of all the greater numbers for each element in the
+array.
+ ```  
+Sample: 
+Array : {2 3 7 ­1 8 5 11} 
+   
+Output: 
+{2­>3, 3­>5, 7­>8, ­1­>2, 8­>11, 5­>7, 11­>} 
+```
+
+Q35.Print the given pattern:
+```
+Input:
+N= 3, M=3
+Output:
+X X X
+X 0 X
+X X X
+N=4 M=5
+Output:
+X X X X
+X 0 0 X
+X 0 0 X
+X 0 0 X
+X X X X
+Input:
+N=6 M=7
+X X X X X X
+X 0 0 0 0 X
+X 0 X X 0 X
+X 0 X X 0 X
+X 0 X X 0 X
+X 0 0 0 0 X
+X X X X X X
+```
+
+Q36.Using Recursion reverse the string such as
+```
+Eg 1: Input: one two three
+      Output: three two one
+Eg 2: Input: I love india
+      Output: india love I 
+```
+
+Q37. Given a few pairs of names in the order child, father. The input is a person name and level number. 
+The output should be the number of children or grand children in that particular level for the person given.
+Example:
+```
+Input:
+[
+{Ram, Syam},
+{Akil, Syam},
+{Nikil, Ram},
+{Subhash, Ram},
+{Karthik, Akil}
+];
+Syam 2
+Output: 3 (Syam has Ram and Akil in level 1 and in level 2 he have Nikil, Subhash, Karthik. So the answer is 3).
+```
+```
+Input:
+[
+{Lava, kusha},
+{Rama, Lava},
+{Lava, Ravanan},
+{Abi, Lava},
+];
+I/P: Ravanan
+O/P: 2
+```
+```  
+Input:
+[
+{luke, shaw},
+{wayne, rooney},
+{rooney, ronaldo},
+{shaw, rooney},
+];
+I/P: ronaldo
+O/P: 2
+```
+
+Q38.Find if a String2 is substring of String1. If it is, return the index of the first occurrence. else return -1.
+```
+Eg 1:Input:
+        String 1: test123string
+         String 2: 123
+        Output: 4
+Eg 2: Input:
+        String 1: testing12
+        String 2: 1234 
+        Output: -1
+```
+
+Q39.Arrange the numbers in descending order depending on the no. of factors available for each number.
+```
+I/P: {6,8,9}
+O/P: {8,6,9} or {6,8,9}
+Reason: factors of 8 (1,2,4,8), factors of 6 (1,2,3,6), factors of 9 (1,3,9).
 ```
 
 --------------------------------
