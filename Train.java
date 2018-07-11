@@ -255,13 +255,92 @@ public class Train {
 	}
 	
 	public static void seatAvailability(){
+	    Scanner sc = new Scanner(System.in);
 	    System.out.println("seatAvailability");
+	    System.out.println("Pls enter 0-4 for source station");
+	    int src = sc.nextInt();
+	    System.out.println("Pls enter 1-5 for source station");
+		int dest = sc.nextInt();
+		
+		int numOfStation = dest-src;
+		int count;
+		int m = 0;
+		for(int i=0;i<5;i++){
+			if(seat[i][src]!=0 && seat[i][dest]==0) {
+				count=0;
+				for(int j=src+1;j<=dest;j++){
+					if(seat[i][j]==0) {
+						count++;
+					}
+					else {
+						break;
+					}
+				}
+					if(numOfStation==count) {
+						m++;
+					}
+				}
+				
+				if(seat[i][src]==0 && seat[i][dest]!=0) {
+					count=0;
+					for(int j=src;j<=dest;j++){
+						if(seat[i][j]==0) {
+							count++;
+						}
+						else {
+							break;
+						}
+					}
+					if(numOfStation==count) {
+						m++;
+					}
+				}
+				
+				if(seat[i][src]!=0 && seat[i][dest]!=0 && seat[i][src]!=seat[i][dest]) {
+					try {
+						if(seat[i][src] - seat[i][src-1] == 0 && seat[i][dest+1] - seat[i][dest] == 0 ) {
+							count=0;
+							for(int j=src+1;j<dest;j++){
+								if(seat[i][j]==0) {
+									count++;
+								}
+								else {
+									break;
+								}
+							}
+							if(numOfStation==count+1) {
+								m++;
+							}
+						}
+					}
+					catch(Exception e){
+				        }
+				}
+				
+				if(seat[i][src]==0 && seat[i][dest]==0) {
+					count=0;
+					for(int j=src;j<=dest;j++){
+						if(seat[i][j]==0) {
+							count++;
+						}
+						else {
+							break;
+						}
+					}
+					if(numOfStation==count-1) {
+						m++;
+					}
+				}
+			}
+		System.out.println("No of seat available are.:"+m);
 	}
 	
 	public static void mainMenu(){
 	    System.out.println("Press 1 to book");
 	    System.out.println("Press 2 to Prepare Chart");
 	    System.out.println("Press 3 to cancel ur ticket");
+	    System.out.println("Press 4 to check seat svailability");
+	    
 	    Scanner sc = new Scanner(System.in);
 	    int option = sc.nextInt();
 	    switch(option) {
@@ -273,6 +352,9 @@ public class Train {
            break;
         case 3 :
         	doCancel(); 
+           break;
+        case 4 :
+        	seatAvailability(); 
            break;
         default :
            System.exit(0);
